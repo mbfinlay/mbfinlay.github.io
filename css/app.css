@@ -34,7 +34,7 @@ p{
   
 /*widths*/  
 .full-width{width:100%;}
-.three-width{width:62.615em;display:block;margin:0 auto;border:1px solid red;}
+.three-width{width:62.615em;display:block;margin:0 auto;border:0px solid red;}
 @media print, screen and (max-width: 63.615em) {
   .three-width {width:42em;}
 }
