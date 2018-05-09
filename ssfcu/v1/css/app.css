@@ -9,17 +9,14 @@ h1, h2{
 	font-size:22pt;
 	line-height:27pt;
 	text-transform: uppercase;
+	margin:0em 0em .6em 0em;
 }
-
 h3{
 	font-size:13pt;
 	font-weight:bold;
 	color:#1A468D;
 }
-
-p{
-	font-size:10.5pt;
-}
+p{font-size:10.5pt;}
 
 /* Responsive accomodations for SSFCU logo */
 .logo{width:21em;padding:1.5em 0em 1.5em 0em;display:block;}
@@ -42,6 +39,7 @@ p{
   .three-width {width:100%;}
 }
 .img-width{width:100%;max-width:18em;margin:0 auto;display:block;}
+	.img-girl{width:81% !important;}
 
 /*colors*/
 .ssfcu-darkblue{background-color:#1A468D}
@@ -66,9 +64,10 @@ p{
 	border-radius:4px;
 	font-size:13pt;
 	padding: 0.75em 1em;
+	margin:.6em 0em 0em 0em;
 }
 .button.orange {
-	background-color: #F78E0C;
+	background-color: #ed9f1e;
 	color: #ffffff; 
 }
 	.button.orange:hover, .button.orange:focus {
@@ -102,6 +101,7 @@ p{
 
 /*bar content padding*/
 .bar-content-padding{padding:3.5em 0em;}
+.bar-content-padding-heavy{padding:4em 0em 4.7em 0em;}
 
 /*std bar content blocks*/
 .bar-content-img{
@@ -121,7 +121,18 @@ p{
 	color:#565656;
 	text-align:center;
 }
-	.bar-content-text ul{
+.bar-list-text{
+	max-width:17em;
+	margin:0 auto;
+	margin-top:1em;
+	margin-bottom:2em;
+	color:#565656;
+	text-align:left;
+}
+	.bar-list-text h3{
+		text-align:left;
+	}
+	.bar-list-text ul{
 		text-align:left;
 		font-size:10pt;
 	}
@@ -143,6 +154,10 @@ p{
 	text-align:left;
 	color:#ffffff;
 	padding:1em 1.5em 0em 2.5em;
+}
+.bar-top-text a:link, .bar-top-text a:visited, .bar-top-text a:hover, .bar-top-text a:active{
+	color:white;
+	cursor:pointer;
 }
 @media print, screen and (max-width: 63.615em) {
   .bar-top-text {
@@ -205,12 +220,16 @@ p{
 	max-width:30em;
 	margin:0 auto;
 	text-align:center;
-	padding:0em 0em 2.5em 0em;
+	padding: 0em 1em;
 }
 .bar-finserv-text{
-	font-size:11pt;
-	color:#dddddd;
+	font-size:12pt;
+	color:#eeeeee;
 	text-align:center;
-	padding:0em 0em 3em 0em;;
+	padding:2em 0em 0em 0em;
+}
+p.finserv{
+	padding:1em 0em 0em 0em;
+	margin:0em;
 }
 
