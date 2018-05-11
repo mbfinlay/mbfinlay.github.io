@@ -57,6 +57,14 @@ p{font-size:10.5pt;}
 .icn2{
 	width:7em;
 	margin:0em 0em 1.4em 0em;
+	-webkit-filter: drop-shadow( 5px 5px 5px #555555 ); 
+	            filter: drop-shadow( 5px 5px 5px #555555);
+}
+.icn-only{
+	width:7em;
+	margin:2em 0em 0em 0em;
+	-webkit-filter: drop-shadow( 5px 5px 5px #555555 ); 
+	            filter: drop-shadow( 5px 5px 5px #555555);
 }
 
 /*buttons*/
@@ -119,6 +127,14 @@ p{font-size:10.5pt;}
 	margin:0 auto;
 	margin-top:1em;
 	margin-bottom:2em;
+	color:#565656;
+	text-align:center;
+}
+.bar-content-text-only{
+	max-width:17em;
+	margin:0 auto;
+	margin-top:3em;
+	margin-bottom:1.5em;
 	color:#565656;
 	text-align:center;
 }
