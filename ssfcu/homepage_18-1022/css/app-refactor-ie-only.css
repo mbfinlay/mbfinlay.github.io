@@ -1,0 +1,5 @@
+/********************* HB-MENU STYLING ********************/
+
+input#hb-menu-toggle[type="checkbox"]:checked ~ main header{
+	transform: translateX(250px);
+}
